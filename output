@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: output
+# key: output
+# group: building block
+# --
+output "${1:name}" {
+  value = "\$\{${2:name}\}"
+}

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: arta
+# key: arta
+# group: building block
+# --
+resource "aws_route_table_association" "${1:name}" {
+  subnet_id = "\$\{aws_subnet.${2:name.id}\}"
+  route_table_id = "\$\{aws_route_table.${3:name.id}\}"
+}

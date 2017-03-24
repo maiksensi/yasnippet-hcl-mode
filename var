@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: var
+# key: var
+# group: building block
+# --
+variable "${1:name}" {}
