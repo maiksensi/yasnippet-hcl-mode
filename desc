@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: desc
+# key: desc
+# group: building block
+# --
+description = "$1"$0

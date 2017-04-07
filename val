@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: val
+# key: val
+# group: building block
+# --
+"\${var.$1}"
