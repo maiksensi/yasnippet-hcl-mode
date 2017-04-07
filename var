@@ -3,4 +3,4 @@
 # key: var
 # group: building block
 # --
-variable "${1:name}" {}
+variable "${1:name}" {$2}
